@@ -51,7 +51,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Siddhartha3108?t=QRdN6G3Gx-Bl9TkT8mfSSA&s=09",
         icon: Icons.x,
 
         navbar: true,
