@@ -206,7 +206,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/MediaHub.mp4",
+      video: "/media.mp4",
     },
     {
       title: "TouchMap",
