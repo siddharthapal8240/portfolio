@@ -23,6 +23,7 @@ export const DATA = {
     "Django",
     "Mongodb",
     "Mysql",
+    "Firebase",
     "Python",
     "C++",
     "git",
@@ -210,7 +211,7 @@ export const DATA = {
     },
     {
       title: "MediaHub",
-      href: "#",
+      href: "https://mediahub.siddharthapal.me",
       dates: "July 2024",
       active: true,
       description:
@@ -227,7 +228,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://mediahub.siddharthapal.me",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -266,7 +267,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/touchMap.mp4",
     },
   ],
   hackathons: [
