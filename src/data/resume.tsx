@@ -9,7 +9,7 @@ export const DATA = {
   description:
     "Full-stack developer who loves turning ideas into working products and collaborating with the tech community to grow together.",
   summary:
-    "From the start of college, [I’ve been curious about coding and development](#curiocity)—and that curiosity quickly turned into a passion. Over the years, [I’ve explored full-stack development](#development),built real-world projects, and [participated in 5+ hackathons](#hackathons). I’ve [won a track prize and secured 3rd place at an MLH hackathon](#hackathon-winning). I’m currently in my final year of Computer Science & Engineering at JIS College of Engineering, actively contributing to my college’s coding club and engaging with national tech communities. I love building for fun, learning, and impact—and this journey is just getting started.",
+    "From the start of college, [I’ve been curious about coding and development](/)—and that curiosity quickly turned into a passion. Over the years, [I’ve explored full-stack development](/),built real-world projects, and [participated in 5+ hackathons](/). I’ve [won a track prize and secured 3rd place at an MLH hackathon](https://www.linkedin.com/posts/siddharthapal1234_connections-diversion2k24-hackathonsuccess-activity-7160150499122446336-PCsd?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD2uqmgBDKGGVB4gh8Zq2_HJSsMX8aw3NXc). I’m currently in my final year of Computer Science & Engineering at JIS College of Engineering, actively contributing to my college’s coding club and engaging with national tech communities. I love building for fun, learning, and impact—and this journey is just getting started.",
   avatarUrl: "/me.jpeg",
   skills: [
     "Html",
@@ -114,9 +114,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "PrepWise",
+      href: "https://prepwise.siddharthapal.me/sign-in",
+      dates: "May - June 2025",
+      active: true,
+      description:
+        "Developed an AI-powered mock interview platform enabling users to practice interviews with real-time transcription, dynamic AI feedback, and personalized insights. Built with Next.js, Firebase, Vapi AI, and Gemini, the platform ensures secure authentication, scalable data handling, and an interactive, responsive user experience.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Firebase",
+        "Vapi AI",
+        "Google Gemini",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://prepwise.siddharthapal.me/sign-in",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/siddharthapal8240/GestureSlide-DebugDivas.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/prepwise.png",
+      video:
+        "",
+    },
+    {
       title: "GestureSlide",
-      href: "https://chatcollect.com",
-      dates: "August 2025",
+      href: "https://www.hackquest.io/projects/GestureSlide",
+      dates: "March 2025",
       active: true,
       description:
         "Developed a gesture-controlled presentation platform that allows users to navigate slides in real-time using hand gestures. The system features a smart whiteboard equipped with live drawing and annotation tools, supporting various presentation formats. It also includes a history dashboard for secure session storage, activity tracking, and easy file retrieval, all within a responsive and intuitive user interface.",
