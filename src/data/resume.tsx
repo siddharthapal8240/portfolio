@@ -137,7 +137,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/siddharthapal8240/GestureSlide-DebugDivas.git",
+          href: "https://github.com/siddharthapal8240/interview_prep.git",
           icon: <Icons.github className="size-3" />,
         },
       ],
