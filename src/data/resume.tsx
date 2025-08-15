@@ -115,6 +115,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Agency AI",
+      href: "https://agency-ai-sid.vercel.app",
+      dates: "August 2025",
+      active: true,
+      description:
+        "Developed a modern, fully responsive digital agency website featuring a sleek dark/light theme toggle, smooth animations, and a custom interactive cursor. Implemented reusable, modular React components for sections like Services, Our Work, Team, and Contact, ensuring scalability and maintainability. Built entirely with React.js, Tailwind CSS, and react-hot-toast for notifications, delivering a fast, visually engaging, and mobile-friendly experience.",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://agency-ai-sid.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/siddharthapal8240/Agency.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/agency.png",
+      video:
+        "",
+    },
+    {
       title: "PrepWise",
       href: "https://prepwise.siddharthapal.me/sign-in",
       dates: "May - June 2025",
