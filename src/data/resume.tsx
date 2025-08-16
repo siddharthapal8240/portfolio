@@ -117,7 +117,7 @@ export const DATA = {
     {
       title: "Agency AI",
       href: "https://agency-ai-sid.vercel.app",
-      dates: "August 2025",
+      dates: "August 202",
       active: true,
       description:
         "Developed a modern, fully responsive digital agency website featuring a sleek dark/light theme toggle, smooth animations, and a custom interactive cursor. Implemented reusable, modular React components for sections like Services, Our Work, Team, and Contact, ensuring scalability and maintainability. Built entirely with React.js, Tailwind CSS, and react-hot-toast for notifications, delivering a fast, visually engaging, and mobile-friendly experience.",
