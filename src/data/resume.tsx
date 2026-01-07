@@ -114,6 +114,37 @@ export const DATA = {
     },
   ],
   projects: [
+     {
+      title: "Spott",
+      href: "https://spott.siddharthapal.me",
+      dates: "Dec 2025",
+      active: true,
+      description:
+        "Developed a modern, AI-powered event discovery and management platform enabling users to create, discover, and register for events seamlessly. Integrated Google Gemini to auto-generate event descriptions and categories from minimal inputs. Built using Next.js, ShadCN UI, Clerk, and Convex to deliver a secure, scalable, and responsive experience with QR-based attendee check-ins.",
+      technologies: [
+        "Next.js",
+        "Javascript",
+        "ShadCN UI",
+        "Convex",
+        "Clerk",
+        "Google Gemini",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://spott.siddharthapal.me",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/siddharthapal8240/spott.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/spott.png",
+      video:
+        "",
+    },
     {
       title: "Agency AI",
       href: "https://agency-ai-sid.vercel.app",
